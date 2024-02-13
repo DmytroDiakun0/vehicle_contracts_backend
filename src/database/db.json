@@ -1,0 +1,46 @@
+{
+  "customers": [
+    {
+      "name": "Oleksandr",
+      "phoneNumber": "000000",
+      "mail": "test@email.com",
+      "street": "Mazepy",
+      "city": "Ivano-Frankivsk",
+      "id": "351a597e-447f-4ad3-90ed-c47627d13747"
+    }
+  ],
+  "vehicles": [
+    {
+      "carNumber": "AT0000AK",
+      "serialNumber": "AMlMEA",
+      "releaseDate": "24.02.2022",
+      "brand": "Volvo V40",
+      "fuelType": "Diesel",
+      "battery": "140",
+      "id": "26cb820a-1612-4af3-a103-6cc894ceec72"
+    }
+  ],
+  "contracts": [
+    {
+      "customerId": "351a597e-447f-4ad3-90ed-c47627d13747",
+      "vehicleId": "26cb820a-1612-4af3-a103-6cc894ceec72",
+      "name": "New Vehicle Contract",
+      "status": "Active",
+      "totalPrice": "355500",
+      "duration": "36",
+      "distance": "140000",
+      "customerPrice": "98.75",
+      "startDate": "01.02.2024",
+      "odometerAtExpiration": "140001",
+      "endDate": "01.02.2027",
+      "startMileage": "1",
+      "events": [
+        {
+          "time": "12.02.2024 11:11",
+          "type": "Created"
+        }
+      ],
+      "id": "4d362911-e577-491d-9e1a-93404eea5ea5"
+    }
+  ]
+}
