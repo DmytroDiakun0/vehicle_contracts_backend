@@ -7,6 +7,22 @@
       "street": "Mazepy",
       "city": "Ivano-Frankivsk",
       "id": "351a597e-447f-4ad3-90ed-c47627d13747"
+    },
+    {
+      "name": "Max",
+      "phoneNumber": "111111",
+      "mail": "max@email.com",
+      "street": "Mazepy",
+      "city": "Ivano-Frankivsk",
+      "id": "2293b9d5-170b-43f4-8509-1c5df048b807"
+    },
+    {
+      "name": "Andrey",
+      "phoneNumber": "222222",
+      "mail": "andrey@email.com",
+      "street": "Mazepy",
+      "city": "Ivano-Frankivsk",
+      "id": "07b4e9b1-8089-4254-a208-fdd1e548d93f"
     }
   ],
   "vehicles": [
@@ -18,6 +34,24 @@
       "fuelType": "Diesel",
       "battery": "140",
       "id": "26cb820a-1612-4af3-a103-6cc894ceec72"
+    },
+    {
+      "carNumber": "AT1111AK",
+      "serialNumber": "MGQCFT",
+      "releaseDate": "12.10.2020",
+      "brand": "BMW",
+      "fuelType": "Petrol",
+      "battery": "160",
+      "id": "00e0560e-f4e0-4e2b-b702-f92b9f577cb8"
+    },
+    {
+      "carNumber": "AT2222AK",
+      "serialNumber": "ATXIGL",
+      "releaseDate": "30.12.2019",
+      "brand": "Chevrolet",
+      "fuelType": "Petrol",
+      "battery": "100",
+      "id": "e4fbee7c-a469-46c0-b5bb-72af7837fabf"
     }
   ],
   "contracts": [
@@ -41,6 +75,48 @@
         }
       ],
       "id": "4d362911-e577-491d-9e1a-93404eea5ea5"
+    },
+    {
+      "customerId": "2293b9d5-170b-43f4-8509-1c5df048b807",
+      "vehicleId": "00e0560e-f4e0-4e2b-b702-f92b9f577cb8",
+      "name": "Vehicle Contract #2",
+      "status": "Active",
+      "totalPrice": "355500",
+      "duration": "36",
+      "distance": "140000",
+      "customerPrice": "98.75",
+      "startDate": "01.02.2024",
+      "odometerAtExpiration": "140001",
+      "endDate": "01.02.2027",
+      "startMileage": "1",
+      "events": [
+        {
+          "time": "12.02.2024 11:11",
+          "type": "Created"
+        }
+      ],
+      "id": "59723906-9bb7-4a48-9ba9-88a1f21aae07"
+    },
+    {
+      "customerId": "07b4e9b1-8089-4254-a208-fdd1e548d93f",
+      "vehicleId": "e4fbee7c-a469-46c0-b5bb-72af7837fabf",
+      "name": "Vehicle Contract #3",
+      "status": "Active",
+      "totalPrice": "355500",
+      "duration": "36",
+      "distance": "140000",
+      "customerPrice": "98.75",
+      "startDate": "01.02.2024",
+      "odometerAtExpiration": "140001",
+      "endDate": "01.02.2027",
+      "startMileage": "1",
+      "events": [
+        {
+          "time": "12.02.2024 11:11",
+          "type": "Created"
+        }
+      ],
+      "id": "956c0386-857d-46b4-a4f1-7f5689ac7b9c"
     }
   ]
 }
